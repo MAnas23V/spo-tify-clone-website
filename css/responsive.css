@@ -1,0 +1,161 @@
+@media screen and (max-width : 855px) {
+    .left {
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        left: -200%;
+        z-index: 1;
+        height: 99vh;
+        margin: 0px 2px;
+        width: 280px;
+        transition: all 1s;
+    }
+
+    .left-top {
+        margin: 0px 3px;
+        margin-bottom: 7px;
+        margin-right: 7px;
+        height: 20vh;
+        padding: 15px 8px;
+    }
+
+    .logo:nth-child(1) {
+        height: 10px;
+    }
+
+    .move-close {
+        padding: 1px;
+        padding-top: 2px;
+        padding-left: 2px;
+    }
+
+    .left-top ul li {
+        margin-top: 16px;
+    }
+
+    .left-bottom {
+        margin: 0px 3px;
+        margin-bottom: 2px;
+        margin-right: 7px;
+        height: 80vh;
+    }
+
+    .your-library {
+        height: 18px;
+    }
+
+    .left-header {
+        margin-top: 8px;
+        max-height: 48vh;
+    }
+
+    .left-footer {
+        bottom: 5px;
+        gap: 10px;
+    }
+
+    .right {
+        width: 100vw;
+        position: relative;
+        margin: 0px 2px;
+        height: 99vh;
+    }
+
+    .navbar {
+        padding: 7px 12px;
+    }
+
+    .move-btn {
+        height: 30px;
+    }
+
+    .move-menu,
+    .move-close {
+        display: block;
+    }
+
+    .move-left,
+    .move-right {
+        padding: 8px 8px;
+    }
+
+    .play-container {
+        padding: 10px 20px;
+        max-height: 70vh;
+        justify-content: center;
+    }
+
+    .song-container {
+        width: 200px;
+    }
+
+    .main-play-bar {
+        width: 97%;
+    }
+
+    .play-bar {
+        height: 49px;
+    }
+
+    .upper {
+        align-items: flex-start;
+    }
+
+    .control {
+        position: relative;
+        top: -8px;
+    }
+}
+
+@media screen and (max-width : 665px) {
+    .play-bar {
+        height: 105px;
+    }
+
+    .upper {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .song-details {
+        display: flex;
+        justify-content: center;
+    }
+
+    .control {
+        height: 25px;
+    }
+
+    .song-duration {
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width : 555px) {
+    .path {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width : 431px) {
+    .logo :nth-child(1){
+        height: 35px;
+    }
+
+    .left-top ul li {
+        margin-top: 25px;
+    }
+
+    .left-top ul li img{
+        height: 35px;
+    }
+    
+    .song-container {
+        width: 330px;
+    }
+
+    .song-info{
+        height: 55px;
+    }
+}
